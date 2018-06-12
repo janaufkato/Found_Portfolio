@@ -1,0 +1,178 @@
+/*____fonts____*/
+@font-face {
+    font-family: «Arimo», sans-serif;
+    src: url('fonts/Arino-Regular.ttf');
+    font-weight: normal;
+}
+@font-face {
+    font-family: «Arimo», sans-serif;
+    src: url('fonts/Arino-Regular.ttf');
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'Vollkorn', serif;
+    src: url('fonts/Vollkorn-SemiBold.ttf');
+    font-weight: normal;
+}
+@font-face {
+  font-family: 'Vollkorn', serif;
+  src: url('fonts/Vollkorn-Bold.ttf');
+  font-weight: bold;
+}
+
+
+/*____standats____*/
+a {
+    font-size: 14px;
+    font-family: sans-serif;
+}
+h1 {
+    font-size: 100px;
+    font-family: serif;
+    color: white;
+}
+h2 {
+    font-size: 48px;
+    font-family: serif;
+    color: black;
+}
+h3 {
+  font-size: 38px;
+  font-family: serif;
+  font-weight: bold;
+}
+p {
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.brand-color {
+    color: fff324;
+}
+
+
+/*____navigation____*/
+.logo {
+margin-top: 0px;
+margin-left: 500px;
+}
+  .logo-name {
+    text-transform: uppercase;
+    font-size: 28px;
+    float: left;
+    color: white;
+  }
+  .logo-figur{
+    margin-top: 10px;
+    display: block;
+    height: 35px;
+    width: 100px;
+    border:  #fff324 solid 3px;
+  }
+  .nav {
+    margin-top: -25px;
+    margin-left: 40px;
+  }
+  .navigation a {
+    text-transform: uppercase;
+    margin: 0px 40px;
+    color: gray;
+  }
+.navigation a:hover {
+  text-decoration: none;
+  color: white;
+  -moz-transition: color, 0.3s;
+  -o-transition: color, 0.3s;
+  -webkit-transition: color, 0.3s;
+  transition: color, 0.3s;
+}
+
+  /*____banner____*/
+  .banner {
+    background-image: url(../img/img1.png);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    min-height: 750px;
+  }
+  .background {
+    background-image: url(../img/img2.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    min-height: 750px;
+  }
+
+  /*found Portfolio*/
+  .banner-figur {
+    position: absolute;
+    margin: 115px 760px;
+    display: block;
+    height: 50px;
+    width: 30px;
+    border:  #fff324 solid 5px;
+  }
+  .banner-text {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 500px;
+    color: white;
+    font-size: 68px;
+    text-transform: uppercase;
+    font-family: serif;
+  }
+.btn-lern :hover {
+  text-decoration: none;
+  color: gray;
+}
+.btn-lern  {
+  font-family: sans-serif;
+  font-weight: bold;
+  position: absolute;
+  margin: 300px 520px;
+  color: white;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.btn-lern a{
+  color: white;
+  text-decoration: none;
+  border: 2px solid white;
+  padding: 10px 40px;
+}
+.btn-lern span {
+  font-size: 30px;
+}
+.bunner-decoration {
+  color: rgba(255, 255, 0, 0.3);
+  -moz-transform: rotate(90deg); /* Для Firefox */
+  -ms-transform: rotate(90deg); /* Для IE */
+  -webkit-transform: rotate(90deg); /* Для Safari, Chrome, iOS */
+  -o-transform: rotate(90deg); /* Для Opera */
+  transform: rotate(90deg);
+}
+.right {
+
+}
+.left {
+  margin: 200px 300px;
+  font-family: serif;
+  font-size: 45px;
+}
+.mouse {
+  position: absolute;
+  margin: 380px 520px;
+  weight: 20px;
+  height: 20px;
+}
+.scroll a {
+  color: gray;
+}
+.scroll  {
+  position: absolute;
+  margin: 430px 500px;
+}
+.scroll :hover {
+  color: white;
+  text-decoration: none;
+}
