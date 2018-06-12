@@ -29,12 +29,12 @@ a {
 h1 {
     font-size: 100px;
     font-family: serif;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 h2 {
     font-size: 48px;
     font-family: serif;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 h3 {
   font-size: 38px;
@@ -60,31 +60,51 @@ margin-left: 500px;
     text-transform: uppercase;
     font-size: 28px;
     float: left;
-    color: white;
+    color: rgb(255, 255, 255);
   }
   .logo-figur{
     margin-top: 10px;
     display: block;
-    height: 35px;
+    height: 30px;
     width: 100px;
     border:  #fff324 solid 3px;
   }
   .nav {
     margin-top: -25px;
-    margin-left: 40px;
+    margin-left: 35px;
   }
   .navigation a {
     text-transform: uppercase;
     margin: 0px 40px;
-    color: gray;
+    color: rgb(192, 192, 192);
   }
 .navigation a:hover {
   text-decoration: none;
-  color: white;
+  color: rgb(255, 255, 255);
   -moz-transition: color, 0.3s;
   -o-transition: color, 0.3s;
   -webkit-transition: color, 0.3s;
   transition: color, 0.3s;
+}
+.language-btn {
+    font-size: 14px;
+    font-family: sans-serif;
+    margin-left: 200px;
+    text-transform: uppercase;
+    background: none;
+    border: none;
+    background: none;
+    color: rgb(192, 192, 192);
+    outline: none;
+}
+.language-btn:active {
+    outline: none;
+}
+.language-btn::-moz-focus-inner {
+  border: 0 !important;
+}
+.language-btn option {
+    background: rgba(0,0,0,1);
 }
 
   /*____banner____*/
@@ -116,28 +136,32 @@ margin-left: 500px;
     position: absolute;
     margin-top: 100px;
     margin-left: 500px;
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 68px;
     text-transform: uppercase;
     font-family: serif;
   }
 .btn-lern :hover {
   text-decoration: none;
-  color: gray;
+  color: rgb(192, 192, 192);
+  -moz-transition: color, 0.3s;
+  -o-transition: color, 0.3s;
+  -webkit-transition: color, 0.3s;
+  transition: color, 0.3s;
 }
 .btn-lern  {
   font-family: sans-serif;
   font-weight: bold;
   position: absolute;
   margin: 300px 520px;
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 12px;
   text-transform: uppercase;
 }
 .btn-lern a{
-  color: white;
+  color: rgb(255, 255, 255);
   text-decoration: none;
-  border: 2px solid white;
+  border: 2px solid rgb(255, 255, 255);
   padding: 10px 40px;
 }
 .btn-lern span {
@@ -166,13 +190,17 @@ margin-left: 500px;
   height: 20px;
 }
 .scroll a {
-  color: gray;
+  color: rgb(192, 192, 192);
 }
 .scroll  {
   position: absolute;
   margin: 430px 500px;
 }
 .scroll :hover {
-  color: white;
+  color: rgb(255, 255, 255);
   text-decoration: none;
+  -moz-transition: color, 0.3s;
+  -o-transition: color, 0.3s;
+  -webkit-transition: color, 0.3s;
+  transition: color, 0.3s;
 }
