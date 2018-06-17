@@ -16,15 +16,15 @@
               <container class="container">
                   <div class="row">
                       <div class="navigation col-md-12">
-                        <nav class="navigation" role="navigation">
+                        <nav class="navigation" id="navigation" role="navigation">
                             <div class="logo">
                               <h3 class="logo-name">Jan Kato</h3>
                               <div class="logo-figur"></div>
                             </div>
                             <div class="nav">
                               <a id="home" href="#header">home</a>
-                              <a id="works" href="#works">works</a>
-                              <a id="contact" href="#contact">contact</a>
+                              <a id="works" href="#works-content">works</a>
+                              <a id="contact" href="#contact-content">contact</a>
                               <select class="language-btn" name="" id="input0" required="required">
                                 <option value="eng">eng</option>
                                 <option value="rus">rus</option>
@@ -44,24 +44,88 @@
                 <div class="btn-lern" id="btn-lern"><a href="#">lern more  <span>&#8594;</span></a></div>
                 <p class="bunner-decoration left">	&#8212; 01 <span>&#8230;</span></p>
                 <p class="bunner-decoration right">design & development</p>
+                <div class="banner-letter">U</div>
+                <div class="banner-letter1">X</div>
                 <img class="mouse" src="img/mouse.png" alt="mouse">
                 <p class="bunner-decoration scroll"><a href="#works">&#8594; scroll</a></p>
-              </div>
+            </div>
           </container>
       </div>
     </section>
 <!--banner-->
-    <section class="works" id="works">
+    <section class="works" id="works-content">
         <div class="conteiner">
             <div class="row">
-                <div class="col-md-12">
-                    <img src="img/work1.jpg" alt="hdrezka" class="work1">
-                        <div></div>
-                        <h1 class="works-name">HDREZKA.ag</h1>
+                <div class="col-md-10">
+<!-- block 1 -->
+                        <img src="img/work1.jpg" alt="hdrezka" class="work1">
+                        <div class="work1hr">&mdash;</div>
+                        <h1 class="work1name">HDREZKA.ag</h1>
                         <br>
-                        <div></div>
-                        <p>HDrezka This is an online cinema without annoying advertising, which has a simple and concise design.</p>
-                        <div class="" id="btn-lern"><a href="#">lern more  <span>&#8594;</span></a></div>
+                        <div class="work1hr1">&ndash;</div>
+                        <p class="work1text" id="work1text">HDrezka This is an online cinema without annoying advertising, which has a simple and concise design.</p>
+                        <div class="work1-btn" id="work-btn"><a class="work1-btn_but" href="#"><span class="but_lern">lern</span> more  <span class="but_lern_el">&#8594;</span></a></div>
+<!-- block 2 -->
+                        <div class="dec1">01.</div>
+                        <div class="dec2">&mdash;</div>
+                        <img src="img/work2.jpg" alt="si" class="work2">
+                        <div class="work2_block">
+                            <h1 class="work1name">SI.com</h1>
+                            <p class="work1text" id="work1text2">Si - is a web store where you easily pick up furniture for any room. The service is very easy to use thanks to the thought out ux.</p>
+                            <div class="work1-btn" id="work-btn"><a class="work1-btn_but" href="#"><span class="but_lern">lern</span> more  <span class="but_lern_el">&#8594;</span></a></div>
+                            <div class="dec3">02.</div>
+                            <div class="dec4">&mdash;</div>
+                        </div>
+<!-- block 3 -->
+                        <img src="img/work3.jpg" alt="hdrezka" class="work1">
+                        <div class="work3">
+                            <div class="work2hr">&mdash;</div>
+                            <h1 class="work1name">Shelter of mercy</h1>
+                            <br>
+                            <div class="work1hr1">&ndash;</div>
+                            <p class="work3text" id="work1text3">This service quickly and conveniently helps you find that only friend thanks to the intuitive design.</p>
+                            <div class="work1-btn" id="work-btn"><a class="work1-btn_but" href="#"><span class="but_lern">lern</span> more  <span class="but_lern_el">&#8594;</span></a></div>
+                        </div>
+<!-- button for seen all works -->
+                        <div class="allwork-btn" id="work-btn"><a class="work1-btn_but" href="#"><span class="but_lern">wach</span> more  <span class="but_lern_el">&#8594;</span></a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="contact-list" id="contact-content">
+                    <div class="col-md-10">
+                        <div class="contact-block">
+                            <img src="img/contact.jpg" alt="contact" class="contactphoto">
+                            <div class="contact-block__text">
+                                <div class="contact-dec1">&mdash;</div>
+                                <div class="contact-dec2">&ndash;</div>
+                                <div class="contact-figur"></div>
+                                <h1 class="contact-name">contact</h1>
+                                <p class="contact-text" id=""><span>email:</span>www.janaufkato@gmail.com <span>skype:</span>jan.auf.kato</p>
+                                <div class="contact-btn" id="work-btn"><a class="work1-btn_but" href="#"><span class="but_lern">lern</span> more  <span class="but_lern_el">&#8594;</span></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="foot" id="footer">
+                        <div class=" footer-block">
+                            <div class="footer__text">&copy; 2018 all right reserved</div>
+                            <div class="footer__central-text">found   _  portfolio</div>
+                            <div class="footer__figure"></div>
+                            <div class="footer__text2">made by JAN KATO</div>
+                        </div>
+                        </div>
                 </div>
             </div>
         </div>

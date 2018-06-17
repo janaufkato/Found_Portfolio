@@ -22,6 +22,9 @@
 
 
 /*____standats____*/
+html, body {
+    height: 100%;
+}
 a {
     font-size: 14px;
     font-family: sans-serif;
@@ -52,6 +55,22 @@ p {
 
 
 /*____navigation____*/
+.navigation {
+     position: fixed;
+     top: 0;
+     left: 0;
+     z-index: 9999;
+     width: 100%;
+     height: 50px;
+     background-color: rgba(0, 0, 0, 0);
+}
+#navigation.fixed {
+  background-color: rgba(0, 0, 0, 0.8);
+  -moz-transition: background-color, 0.5s;
+  -o-transition: background-color, 0.5s;
+  -webkit-transition: background-color, 0.5s;
+  transition: background-color, 0.5s;
+}
 .logo {
 margin-top: 0px;
 margin-left: 500px;
@@ -67,7 +86,7 @@ margin-left: 500px;
     display: block;
     height: 30px;
     width: 100px;
-    border:  #fff324 solid 3px;
+    border:  #fff324 solid 2px;
   }
   .nav {
     margin-top: -25px;
@@ -175,13 +194,26 @@ margin-left: 500px;
   -o-transform: rotate(90deg); /* Для Opera */
   transform: rotate(90deg);
 }
-.right {
-
-}
 .left {
   margin: 200px 300px;
   font-family: serif;
   font-size: 45px;
+}
+.banner-letter {
+    position: absolute;
+    font-size: 438px;
+    text-transform: uppercase;
+    font-family: serif;
+    color: rgba(255, 255, 255, 0.05);
+    margin-left: 1100px;
+}
+.banner-letter1 {
+    position: absolute;
+    font-size: 438px;
+    text-transform: uppercase;
+    font-family: serif;
+    color: rgba(255, 255, 255, 0.05);
+    margin: 290px 140px;
 }
 .mouse {
   position: absolute;
@@ -206,14 +238,225 @@ margin-left: 500px;
 }
 
   /*works*/
- .works-name{
-    font-family: serif;
-
+.work1hr {
+    font-size: 55px;
+    margin: 85px 0px 0px 240px;
+    position: absolute;
 }
+.work1hr1 {
+    color:  #fff324;
+    font-size: 40px;
+    margin: 10px 0px 0px 280px;
+    position: absolute;
+}
+.work1name{
+    margin: 100px 0px 0px 320px;
+    font-size: 48px;
+    font-family: serif;
+}
+.work1text {
+    font-family: sans-serif;
+    margin: 20px 0px 0px 320px;
+    font-size: 15px;
+    color: rgb(192, 192, 192);
+}
+.work1-btn_but {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.but_lern {
+    border-bottom: #fff324 solid 2px;
+}
+.but_lern_el {
+    font-size: 30px;
+    color:  #fff324;
+}
+.work1-btn {
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 30px 100px 30px 320px;
+    font-size: 16px;
+}
+    .work1-btn :hover {
+        color: rgb(192, 192, 192);
+        text-decoration: none;
+    }
 .work1 {
     padding: 0px;
-    margin: 90px 70px;
+    margin: 60px 0px;
     float: right;
-    width: 500px;
-    height: 370px;
+    width: 400px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.work2hr {
+    font-size: 55px;
+    margin: -10px 0px 0px 240px;
+    position: absolute;
+}
+.dec1 {
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 250px;
+}
+.dec2 {
+    font-size: 50px;
+    color: #fff324;
+    position: absolute;
+    margin-left: 250px;
+    -moz-transform: rotate(90deg); /* Для Firefox */
+    -ms-transform: rotate(90deg); /* Для IE */
+    -webkit-transform: rotate(90deg); /* Для Safari, Chrome, iOS */
+    -o-transform: rotate(90deg); /* Для Opera */
+    transform: rotate(90deg);
+}
+.dec3 {
+    position: absolute;
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: -50px 1050px 100px 1050px;
+}
+.dec4 {
+    font-size: 50px;
+    color: #fff324;
+    position: absolute;
+    margin-left: 1050px;
+    -moz-transform: rotate(90deg); /* Для Firefox */
+    -ms-transform: rotate(90deg); /* Для IE */
+    -webkit-transform: rotate(90deg); /* Для Safari, Chrome, iOS */
+    -o-transform: rotate(90deg); /* Для Opera */
+    transform: rotate(90deg);
+}
+
+.work2 {
+    padding: 0px;
+    margin: 100px 80px 50px 230px;
+    float: left;
+    width: 400px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.work2_block {
+    margin-bottom: 100px;
+}
+.work3 {
+    margin-top: 180px;
+}
+.work3text {
+    font-family: sans-serif;
+    margin: 20px 0px 0px 320px;
+    padding-right: 90px;
+    font-size: 15px;
+    color: rgb(192, 192, 192);
+}
+/* all work btn */
+.allwork-btn {
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 20px 0px 0px 580px;
+    font-size: 20px;
+}
+.allwork-btn :hover {
+    color: rgb(192, 192, 192);
+    text-decoration: none;
+}
+
+
+
+/* contact list */
+.contact-block {
+    margin: 0px 200px 100px 170px;
+}
+.contactphoto {
+    float: left;
+    height: 300px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.contact-dec1 {
+    font-size: 70px;
+    margin: 0px 0px 0px 430px;
+    position: absolute;
+}
+.contact-dec2 {
+    color:  #fff324;
+    font-size: 60px;
+    margin: 80px 0px 0px 470px;
+    position: absolute;
+}
+.contact-name {
+    font-family: serif;
+    font-size: 48px;
+    text-transform: uppercase;
+    position: absolute;
+    margin: 30px 0px 0px 550px;
+}
+.contact-figur {
+  position: absolute;
+  margin: 20px 640px;
+  display: block;
+  height: 50px;
+  width: 170px;
+  border:  #fff324 solid 3px;
+}
+.contact-text {
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-family: sans-serif;
+    position: absolute;
+    margin: 120px 0px 0px 550px;
+}
+.contact-text span {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.contact-btn {
+    position: absolute;
+    margin-left: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+    .contact-btn :hover {
+        color: rgb(192, 192, 192);
+        text-decoration: none;
+    }
+
+
+/* footer */
+.footer {
+    margin-top: 90px;
+  background-image: url(../img/img4.jpg);
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.footer-block {
+    margin-top: 15px;
+}
+.footer__text {
+    color: rgb(192, 192, 192);
+    float: left;
+    margin: 10px 100px 0px 150px;
+}
+.footer__central-text {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: serif;
+    color: rgb(255, 255, 255);
+    float: right;
+}
+.footer__text2 {
+    color: rgb(192, 192, 192);
+    position: absolute;
+    margin: 10px 0px 0px 800px;
+    float: right;
+}
+.footer__figure {
+    position: absolute;
+    margin: 0px 0px 0px 533px;
+    display: block;
+    height: 40px;
+    width: 20px;
+    border:  #fff324 solid 3px;
 }
