@@ -22,9 +22,12 @@
 
 
 /*____standats____*/
-html, body {
-    height: 100%;
+body {
+    background-image: url(../img/dust_scratches.png);
+    background-position: center;
+    width: 1400px;
 }
+
 a {
     font-size: 14px;
     font-family: sans-serif;
@@ -426,13 +429,13 @@ margin-left: 500px;
 /* footer */
 .footer {
     margin-top: 90px;
-  background-image: url(../img/img4.jpg);
-  background-position: left top;
-  background-repeat: no-repeat;
-  background-size: 100%;
+    background-image: url(../img/img4.jpg);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 .footer-block {
-    margin-top: 15px;
+    margin-top: 10px;
 }
 .footer__text {
     color: rgb(192, 192, 192);
@@ -454,9 +457,9 @@ margin-left: 500px;
 }
 .footer__figure {
     position: absolute;
-    margin: 0px 0px 0px 533px;
+    margin: 0px 0px 0px 523px;
     display: block;
-    height: 40px;
+    height: 36px;
     width: 20px;
     border:  #fff324 solid 3px;
 }
