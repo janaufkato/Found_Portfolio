@@ -53,10 +53,10 @@ p {
 }
 .logo {
     margin-top: 15px;
-    margin-left: 450px;
+    margin-left: 20px;
     height: 35px;
 }
-  /* .logo-name {
+   .logo-name {
     text-transform: uppercase;
     font-size: 28px;
     float: left;
@@ -67,10 +67,10 @@ p {
     height: 30px;
     width: 100px;
     border:  #fff324 solid 2px;
-  } */
+  }
   .nav {
     float: right;
-    margin-top: -35px;
+    margin-top: 25px;
     margin-left: 35px;
     margin-right: 20px;
   }
@@ -169,7 +169,6 @@ p {
   font-size: 30px;
 }
 .bunner-decoration {
-    display: none;
   color: rgba(255, 255, 0, 0.3);
   -moz-transform: rotate(90deg); /* Для Firefox */
   -ms-transform: rotate(90deg); /* Для IE */
