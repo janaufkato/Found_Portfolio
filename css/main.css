@@ -30,19 +30,20 @@ p {
 }
 
 .brand-color {
-    color: fff324;
+    color: #fff324;
 }
 
 
 /*____navigation____*/
 .navigation {
-     position: fixed;
-     top: 0;
-     left: 0;
-     z-index: 9999;
-     width: 100%;
-     height: 60px;
-     background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0);
 }
 #navigation.fixed {
   background-color: rgba(0, 0, 0, 0.8);
@@ -52,27 +53,12 @@ p {
   transition: background-color, 0.5s;
 }
 .logo {
+    margin-left: 15%;
     margin-top: 15px;
-    margin-left: 20px;
     height: 35px;
 }
-   .logo-name {
-    text-transform: uppercase;
-    font-size: 28px;
-    float: left;
-    color: rgb(255, 255, 255);
-  }
-  .logo-figur{
-    margin-top: 10px;
-    height: 30px;
-    width: 100px;
-    border:  #fff324 solid 2px;
-  }
   .nav {
-    float: right;
     margin-top: 25px;
-    margin-left: 35px;
-    margin-right: 20px;
   }
   .navigation a {
     text-decoration: none;
@@ -89,9 +75,10 @@ p {
   transition: color, 0.3s;
 }
 .language-btn {
+    
     font-size: 14px;
     font-family: sans-serif;
-    margin-left: 200px;
+    margin-top: -15px;
     text-transform: uppercase;
     background: none;
     border: none;
@@ -121,7 +108,7 @@ p {
     background-position: right top;
     background-repeat: no-repeat;
     background-size: 50%;
-    min-height: 750px;
+    min-height: 950px;
   }
 
   /*found Portfolio*/
@@ -140,7 +127,7 @@ p {
     color: rgb(255, 255, 255);
     font-size: 68px;
     text-transform: uppercase;
-    font-family: serif;
+    font-family: Vollkorn, serif;
   }
 .btn-lern :hover {
   text-decoration: none;
@@ -151,7 +138,7 @@ p {
   transition: color, 0.3s;
 }
 .btn-lern  {
-  font-family: sans-serif;
+  font-family: Arimo, sans-serif;
   font-weight: bold;
   position: absolute;
   margin: 300px 520px;
@@ -185,7 +172,7 @@ p {
     position: absolute;
     font-size: 438px;
     text-transform: uppercase;
-    font-family: serif;
+    font-family: Vollkorn, serif;
     color: rgba(255, 255, 255, 0.05);
     margin-left: 1100px;
 }
@@ -193,7 +180,7 @@ p {
     position: absolute;
     font-size: 438px;
     text-transform: uppercase;
-    font-family: serif;
+    font-family: Arimo serif;
     color: rgba(255, 255, 255, 0.05);
     margin: 290px 140px;
 }
@@ -234,10 +221,10 @@ p {
 .work1name{
     margin: 100px 0px 0px 320px;
     font-size: 48px;
-    font-family: serif;
+    font-family: Vollkorn serif;
 }
 .work1text {
-    font-family: sans-serif;
+    font-family: Arimo sans-serif;
     margin: 20px 0px 0px 320px;
     font-size: 15px;
     color: rgb(192, 192, 192);
