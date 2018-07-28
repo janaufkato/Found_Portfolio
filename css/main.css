@@ -36,6 +36,7 @@ p {
 
 /*____navigation____*/
 .navigation {
+    justify-content: space-around;
     display: flex;
     position: fixed;
     top: 0;
@@ -53,12 +54,12 @@ p {
   transition: background-color, 0.5s;
 }
 .logo {
-    margin-left: 15%;
+    /* margin-left: 15%; */
     margin-top: 15px;
     height: 35px;
 }
   .nav {
-    margin-top: 25px;
+    margin-top: 20px;
   }
   .navigation a {
     text-decoration: none;
@@ -75,10 +76,8 @@ p {
   transition: color, 0.3s;
 }
 .language-btn {
-    
     font-size: 14px;
     font-family: sans-serif;
-    margin-top: -15px;
     text-transform: uppercase;
     background: none;
     border: none;
@@ -113,17 +112,16 @@ p {
 
   /*found Portfolio*/
   .banner-figur {
-    position: absolute;
-    margin: 115px 760px;
+    float: right;
     display: block;
     height: 50px;
     width: 30px;
     border:  #fff324 solid 5px;
   }
   .banner-text {
-    position: absolute;
-    margin-top: 100px;
-    margin-left: 500px;
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
     color: rgb(255, 255, 255);
     font-size: 68px;
     text-transform: uppercase;
@@ -164,38 +162,28 @@ p {
   transform: rotate(90deg);
 }
 .left {
-  margin: 200px 300px;
+
   font-family: serif;
   font-size: 45px;
 }
 .banner-letter {
-    position: absolute;
     font-size: 438px;
     text-transform: uppercase;
     font-family: Vollkorn, serif;
     color: rgba(255, 255, 255, 0.05);
-    margin-left: 1100px;
 }
 .banner-letter1 {
-    position: absolute;
-    font-size: 438px;
     text-transform: uppercase;
     font-family: Arimo serif;
     color: rgba(255, 255, 255, 0.05);
     margin: 290px 140px;
 }
 .mouse {
-  position: absolute;
-  margin: 380px 520px;
   weidht: 20px;
   height: 20px;
 }
 .scroll a {
   color: rgb(192, 192, 192);
-}
-.scroll  {
-  position: absolute;
-  margin: 430px 500px;
 }
 .scroll :hover {
   color: rgb(255, 255, 255);
